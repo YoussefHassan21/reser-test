@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    // Ceci est un programme simple en langage C
+    printf("Bonjour, monde !\n");
+
+    return 0;
+}
