@@ -1,0 +1,22 @@
+.subsection-element {
+  background-color: #f0f0f0 !important; /* Couleur de fond gris clair pour les sous-sections */
+  border: 1px solid #ccc; /* Bordure autour de la sous-section */
+  padding: 2px 5px; /* Réduire l'espacement interne pour rendre plus compact */
+  margin-bottom: 5px; /* Réduire l'espacement entre les éléments */
+  border-radius: 3px; /* Bords légèrement arrondis */
+  font-size: 12px; /* Taille de la police réduite */
+  width: 100%; /* Largeur complète pour alignement */
+  max-height: 25px; /* Hauteur maximale encore plus réduite */
+  line-height: 1; /* Hauteur de ligne compacte */
+  overflow: hidden; /* Masquer le débordement du contenu */
+  display: flex; /* Afficher en flex pour aligner le contenu */
+  align-items: center; /* Centrer verticalement */
+}
+
+.field-element {
+  width: 100%; /* Largeur complète pour les champs */
+  margin-bottom: 10px; /* Espacement entre les champs */
+  display: block; /* Affichage en bloc */
+  padding: 10px; /* Espacement interne pour les champs */
+  font-size: 14px; /* Taille de la police */
+}
